@@ -32,5 +32,9 @@ seeds:
 
 models:
   jaffle_shop:
-    +catalog_name: catalog_horizon
-    +iceberg_version: 3
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+      +catalog_name: catalog_horizon
+      +iceberg_version: 3
