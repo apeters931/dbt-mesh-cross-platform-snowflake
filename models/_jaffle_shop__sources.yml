@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: jaffle_shop
-    schema: sources
+    schema: source
     tables:
       - name: customers
         identifier: raw_customers
