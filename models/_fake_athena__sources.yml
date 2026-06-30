@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: fake_athena
-    database: shared_fake_athena
-    schema: example_data
-    tables:
-      - name: customers

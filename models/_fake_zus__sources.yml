@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: fake_zus
-    database: shared_fake_zus
-    schema: example_data
-    tables:
-      - name: customers
